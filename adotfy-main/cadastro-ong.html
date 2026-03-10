@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adotfy - Cadastrar ONG</title>
 
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cadastro-ong.css">
-
 </head>
 <body>
     <header>
-          <iframe src="./nav.html" frameborder="0" width="100%"></iframe>
+        <iframe src="./nav.html" frameborder="0" width="100%"></iframe>
     </header>
 
     <main>
         <section class="main__ong">
             <h2>Nossas ONGs parceiras</h2>
-
             <div class="ong__box flex">
                 <div class="ong__card">
                     <img src="./assets/imagens/ONG (1).png" alt="">
@@ -34,12 +33,11 @@
             </div>
         </section>
 
-        <h2>
-            Se interessou pelo nosso projeto e tem uma ONG pra cadastrar?
-        </h2>
+        <h2>Se interessou pelo nosso projeto e tem uma ONG pra cadastrar?</h2>
 
         <div class="main flex">
             <div class="img">
+                <!-- Corrigido Assets → assets -->
                 <img src="./assets/imagens/Pets (6).jpg" alt="">
             </div>
                 
@@ -50,31 +48,32 @@
                     </label>
 
                     <label for="cnpj">
-                        CNPJ:<input type="text" name="cnpj" id="cnpj">
+                        CNPJ: <input type="text" name="cnpj" id="cnpj">
                     </label>
 
                     <label for="email">
-                        Email:<input type="email" name="email" id="email">
+                        Email: <input type="email" name="email" id="email">
                     </label>
 
                     <label for="telefone">
-                        Telefone:<input type="number" name="telefone" id="telefone">
+                        Telefone: <input type="number" name="telefone" id="telefone">
                     </label>
-                    <label for="endereço">
-                        Endereço:<input type="text" name="endereço" id="endereço">
+
+                    <label for="endereco">
+                        Endereço: <input type="text" name="endereco" id="endereco">
                     </label>
 
                     <button class="enviar">Cadastrar</button>
                 </form>
             </div>
+        </div>
 
-            
-        </div>
-        </div>
-<div class="mensagem-envio">
+        <div class="mensagem-envio">
             <h2>ONG cadastrada com sucesso!</h2>
             <p>Você já pode cadastrar seus pets disponíveis para adoção.</p>
-        
+        </div>
+
+        <!-- JS -->
         <script src="script2.js"></script>
     </main>
 </body>
